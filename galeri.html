@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Proje Galerisi | Egepen Akçayapı - Yaptığımız İşler</title>
+    <meta name="description"
+        content="Beylikdüzü ve çevresinde tamamladığımız PVC pencere, cam balkon, panjur ve sineklik montajlarından örnekler. Kaliteli işçilik ve memnun müşteri referanslarımız." />
+
+    <!-- Google Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2563EB",
+                        "nav-bg": "#1e1e1e",
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-nav-bg text-white shadow-lg">
+        <div class="px-4 py-3 flex items-center justify-between">
+            <a class="flex flex-col" href="index.html">
+                <span class="text-lg font-bold tracking-tight uppercase">EGEPEN-AKÇAYAPI</span>
+                <span class="text-[10px] text-gray-400 font-light tracking-wider">KALİTE VE GÜVENİN ADRESİ</span>
+            </a>
+            <div class="flex items-center gap-4">
+                <a href="index.html" class="p-2 rounded hover:bg-white/10 transition-colors">
+                    <span class="material-icons-outlined text-2xl">home</span>
+                </a>
+            </div>
+        </div>
+        <!-- Kategori Menüsü (Mobile Scrollable) -->
+        <div
+            class="flex overflow-x-auto no-scrollbar space-x-1 px-4 pb-2 text-xs font-medium whitespace-nowrap bg-nav-bg border-t border-white/10">
+            <a href="#" class="px-3 py-2 text-white bg-primary rounded transition-colors">Tümü</a>
+            <a href="#" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded transition-colors">PVC
+                Pencere</a>
+            <a href="#" class="px-3 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded transition-colors">Cam
+                Balkon</a>
+            <a href="#"
+                class="px-3 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded transition-colors">Panjur &
+                Kepenk</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-gray-900 text-white py-12 px-4 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">Referans Projelerimiz</h1>
+        <p class="text-gray-400 max-w-lg mx-auto">Beylikdüzü ve çevresinde 20 yıldır güvenle inşa ettiğimiz yaşam
+            alanlarından kareler.</p>
+    </section>
+
+    <!-- Galeri Grid -->
+    <section class="py-10 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Proje 1: Villa Cam Balkon -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="images/cam-balkon-villa.jpg" alt="Villa Cam Balkon Projesi"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="bg-orange-500 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">CAM
+                            BALKON</span>
+                        <h3 class="text-white font-bold text-lg">Villa Cam Balkon Uygulaması</h3>
+                        <p class="text-gray-300 text-xs">Ahşap görünümlü profil, katlanır sistem</p>
+                    </div>
+                </div>
+
+                <!-- Proje 2: Apartman Cam Balkon -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="images/cam-balkon-apartman.jpg" alt="Apartman Cam Balkon Projesi"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="bg-teal-600 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">CAM
+                            BALKON</span>
+                        <h3 class="text-white font-bold text-lg">Beylikdüzü - Apartman Projesi</h3>
+                        <p class="text-gray-300 text-xs">Antrasit profil, sürgülü sistem</p>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&auto=format&fit=crop&q=80"
+                        alt="Panjur Projesi"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span
+                            class="bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">PANJUR</span>
+                        <h3 class="text-white font-bold text-lg">Büyükçekmece - Otomatik Panjur</h3>
+                        <p class="text-gray-300 text-xs">Somfy motorlu gizli panjur sistemi</p>
+                    </div>
+                </div>
+
+                <!-- Proje 4 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1595246140625-573b715d11d3?w=800&auto=format&fit=crop&q=80"
+                        alt="Sürme Kapı"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">SÜRME
+                            SİSTEM</span>
+                        <h3 class="text-white font-bold text-lg">Avcılar - Teras Kapama</h3>
+                        <p class="text-gray-300 text-xs">Hebeschiebe (Kaldır-Sür) sistem</p>
+                    </div>
+                </div>
+
+                <!-- Proje 5 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80"
+                        alt="Sineklik"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span
+                            class="bg-emerald-600 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">SİNEKLİK</span>
+                        <h3 class="text-white font-bold text-lg">Bahçeşehir - Komple Daire</h3>
+                        <p class="text-gray-300 text-xs">Pileli ve kedi sinekliği montajı</p>
+                    </div>
+                </div>
+
+                <!-- Proje 6 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop&q=80"
+                        alt="Ofis Bölme"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span
+                            class="bg-gray-600 text-white text-[10px] font-bold px-2 py-1 rounded w-fit mb-2">ALÜMİNYUM</span>
+                        <h3 class="text-white font-bold text-lg">İkitelli - Ofis Bölme</h3>
+                        <p class="text-gray-300 text-xs">Cam ofis bölme sistemleri</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Öncesi / Sonrası -->
+    <section class="py-10 px-4 bg-gray-100">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center">Değişime Tanık Olun</h2>
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="grid grid-cols-2 h-64 md:h-80 relative">
+                    <div class="relative group">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80"
+                            alt="Eski Pencere" class="w-full h-full object-cover filter grayscale contrast-125">
+                        <div class="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded">
+                            ÖNCESİ</div>
+                        <div class="absolute inset-0 bg-black/10"></div>
+                    </div>
+                    <div class="relative group">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80"
+                            alt="Yeni PVC Pencere" class="w-full h-full object-cover">
+                        <div class="absolute top-4 right-4 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded">
+                            SONRASI</div>
+                    </div>
+
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <div class="bg-white rounded-full p-2 shadow-xl">
+                            <span class="material-icons-outlined text-gray-800">compare_arrows</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 text-center">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Eski Pencerelerinizi Yenilemek İçin Geç Kalmayın
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4">Isı kaybına son verin, evinizin değerini artırın. Bir günde
+                        kırmadan dökmeden montaj.</p>
+                    <a href="tel:+902128801507"
+                        class="inline-block bg-primary text-white font-bold py-2 px-6 rounded-lg text-sm hover:bg-blue-600 transition-colors">Ücretsiz
+                        Keşif İste</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-nav-bg text-gray-400 py-6 px-4 text-center border-t border-gray-800">
+        <p class="text-xs mb-2">© 2024 Egepen Akçayapı. Tüm hakları saklıdır.</p>
+        <a href="index.html" class="text-primary hover:text-blue-400 text-sm">‹ Ana Sayfaya Dön</a>
+    </footer>
+
+    <!-- Bottom Nav -->
+    <nav
+        class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-around items-center h-16 z-40 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
+        <a class="flex flex-col items-center text-gray-500 hover:text-primary" href="index.html">
+            <span class="material-icons-outlined text-2xl">home</span>
+            <span class="text-[10px] mt-1 font-medium">Ana Sayfa</span>
+        </a>
+        <a class="flex flex-col items-center text-primary" href="galeri.html">
+            <span class="material-icons-outlined text-2xl">photo_library</span>
+            <span class="text-[10px] mt-1 font-medium">Galeri</span>
+        </a>
+        <a class="flex flex-col items-center justify-center -mt-8 bg-primary text-white rounded-full w-14 h-14 shadow-lg border-4 border-gray-100"
+            href="tel:+902128801507">
+            <span class="material-icons-outlined text-2xl">phone</span>
+        </a>
+        <a class="flex flex-col items-center text-gray-500 hover:text-primary" href="index.html#hizmetler">
+            <span class="material-icons-outlined text-2xl">grid_view</span>
+            <span class="text-[10px] mt-1 font-medium">Hizmetler</span>
+        </a>
+        <a class="flex flex-col items-center text-gray-500 hover:text-primary" href="index.html#iletisim">
+            <span class="material-icons-outlined text-2xl">contact_mail</span>
+            <span class="text-[10px] mt-1 font-medium">İletişim</span>
+        </a>
+    </nav>
+    <div class="h-16"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/902128801507?text=Merhaba,%20referans%20projeleriniz%20hakkında%20bilgi%20almak%20istiyorum."
+        class="fixed bottom-20 right-4 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all hover:scale-110 animate-bounce"
+        target="_blank">
+        <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg>
+    </a>
+</body>
+
+</html>
