@@ -1,0 +1,30 @@
+# Robots.txt for sineklikbeylikduzu.com.tr
+# Egepen AkçaYapı - PVC Pencere, Cam Balkon, Sineklik, Duşakabin, Panjur
+
+User-agent: *
+Allow: /
+
+# Ana Sayfalar
+Allow: /index.html
+Allow: /pvc-dograma.html
+Allow: /aluminyum-dograma.html
+Allow: /cam-balkon.html
+Allow: /sineklik.html
+Allow: /dusakabin.html
+Allow: /panjur.html
+
+# Klasörler
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Yedek dosyaları engelle
+Disallow: /*-old.html
+Disallow: /*_backup.html
+Disallow: /*_old*.html
+
+# Sitemap konumu
+Sitemap: https://www.sineklikbeylikduzu.com.tr/sitemap.xml
+
+# Crawl-delay (arama motoru botlarının siteyi çok yoğun taramaması için)
+Crawl-delay: 1

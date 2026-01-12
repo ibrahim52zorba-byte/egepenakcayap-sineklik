@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Ana Sayfa -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- PVC Pencere ve Kapı -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/pvc-dograma.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Alüminyum Doğrama -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/aluminyum-dograma.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Cam Balkon Sistemleri -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/cam-balkon.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Sineklik Sistemleri -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/sineklik.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Duşakabin -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/dusakabin.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Panjur ve Kepenk -->
+    <url>
+        <loc>https://www.sineklikbeylikduzu.com.tr/panjur.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>
